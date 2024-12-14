@@ -1,0 +1,33 @@
+1. 查找盘符命令
+    wmic logicaldisk get name,description
+2. 弹出对应盘符
+    > diskpart
+    > select volume 盘符
+    > remove
+3. 获取ip地址
+    - powershell命令
+        Get-NetIPAddress -AddressFamily IPv4 | Select-Object InterfaceAlias, IPAddress
+    - cmd命令 详细信息
+        ipconfig
+    - cmd命令 IPv4
+        ipconfig | findstr /i "IPv4"
+4. 查看计算机资源使用情况
+    - cpu使用情况
+        tasklist
+        Get-Process | Sort-Object CPU -Descending | Select-Object -First 5
+    - 磁盘使用情况
+        > diskpart
+        > list volume
+        Get-PSDrive | Where-Object { $_.Provider -like "FileSystem" }
+    - 网络连接状态
+        ipconfig /all
+        Get-NetIPConfiguration
+    - 内存使用情况
+        Get-Process | Sort-Object WorkingSet -Descending | Select-Object -First 5
+    - 性能计数器持续监控
+        while ($true) {
+            $cpuCounter = Get-Counter -Counter "\Processor(_Total)\% Processor Time"
+            $cpuCounter.CounterSamples[0].CookedValue
+            Start-Sleep -Seconds 1
+        }
+

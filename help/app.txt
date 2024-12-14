@@ -1,0 +1,32 @@
+# apps目录下的使用规则
+    1.cn: 启动vpn(from ClashNyanpasu)
+    2.ffmpeg: 使用图片修改(from ffmpeg)
+    3.putty: 启动ssh客户端(from putty)
+    4.ncmdump: 网易云ncm缓存转mp3
+        -d: 指定目录
+        -o: 指定输出位置
+        -r: 递归选择的路径
+    5.rightmenu: 右键菜单管理器
+
+- installer: 可安装软件的目录
+
+- self-build: 自创作的小型软件
+    1.lssh: 快捷连接ssh
+        list: 查看已经保存的配置
+        add: 添加ssh连接
+        remove: 删除ssh连接
+        <remark>: 输入ssh连接的别名进行连接
+    2.translate: 启动翻译控件
+        > right ctrl: 隐藏/显示
+        > =: 复制并清空
+        > /: 清空
+        > *: 复制
+        > \: 退出软件(可以使用__exit__等等方式退出)
+插件配置
+    - 网易云音乐配置(不推荐)
+        - 启动直接运行
+        Invoke-RestMethod https://gist.githubusercontent.com/nondanee/f157bbbccecfe29e48d87273cd02e213/raw | python
+    - ctrl+sheft+p: netease start/其他
+    - >postcode: 模拟网络访问
+    - >github theme: 主题设置
+    - >

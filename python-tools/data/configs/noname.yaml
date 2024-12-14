@@ -1,0 +1,5 @@
+!!python/object/new:basic.utils.DictPlus
+dictitems:
+    a: 1
+    2: b
+    x: c

@@ -1,0 +1,6 @@
+apps/*
+.vscode/*
+build/*
+dist/*
+static/*
+*.pyc
