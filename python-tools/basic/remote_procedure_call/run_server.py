@@ -4,4 +4,5 @@
 
 class RpcServer:
     pass
-# print("服务器启动成功")
+# raise ImportError("请使用basic.run_server模块启动服务器")
+print("服务器启动成功")
