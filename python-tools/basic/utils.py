@@ -111,7 +111,7 @@ class DictPlus(dict):
 
 class ListPlus(list):
 
-    def foreach(self, function: Callable[[object, None|int], list[object]]):
+    def foreach(self, function: Callable[[object, None|int], list[object] | None]):
         """
         循环遍历此对象, 运行方法
         """

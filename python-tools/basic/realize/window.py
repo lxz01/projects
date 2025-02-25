@@ -56,13 +56,13 @@ class Window:
         输出类
         """
         @classmethod
-        def print_exclude_no_title(cls, window: "Window", index: int = None) -> None:
-            if window.title == "":
+        def print_exclude_no_title(cls, _window: "Window", index: int = None) -> None:
+            if _window.title == "":
                 return
             if index is not None:
-                print(f"{index}< ", window)
+                print(f"{index}< ", _window)
                 return
-            print(window)
+            print(_window)
         
         @classmethod
         def print(cls, window: "Window", index: int = None) -> None:

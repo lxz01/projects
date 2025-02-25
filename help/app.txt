@@ -30,3 +30,16 @@
     - >postcode: 模拟网络访问
     - >github theme: 主题设置
     - >
+    tweet: 
+    项目:
+        api key: YvQIa7s0hwDk6Wl2wMadsw3Sg
+        api ser: zoU6fEdnq6nmIkNxD5YVbtli5TlHzgillqjSN2tGPlLPtHeYCK
+        持有者令牌: AAAAAAAAAAAAAAAAAAAAABE8yAEAAAAADuIPLXmkPCalWBNBBGcIxE12cqk%3DUeGx3o5BB2e5wywucz6E7jxOAWKEpCgVjYO7D9XAPtJA5tfNjS
+    
+    其他:
+        api1: YvQIa7s0hwDk6Wl2wMadsw3Sg
+        api2: zoU6fEdnq6nmIkNxD5YVbtli5TlHzgillqjSN2tGPlLPtHeYCK
+        持有者3: AAAAAAAAAAAAAAAAAAAAABE8yAEAAAAADuIPLXmkPCalWBNBBGcIxE12cqk%3DUeGx3o5BB2e5wywucz6E7jxOAWKEpCgVjYO7D9XAPtJA5tfNjS
+        访问4: 1745012927688847360-GbpVIRwj5A20kgYyPwEOxZrpV4CbUO
+        访问5: qDkNS3r1NEB3szK8CQVwR8A7sAJzJGBp7Vk6Ri41mmLzb
+        
