@@ -7,6 +7,8 @@
         -o: 指定输出位置
         -r: 递归选择的路径
     5.rightmenu: 右键菜单管理器
+    6.wiliwili: bilibili替代软件
+    7.dv: 直播下载, m3u8视频下载等
 
 - installer: 可安装软件的目录
 
